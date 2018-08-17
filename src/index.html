@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.js"></script>
+	<script src="./app.js"></script>
+</head>
+<body ng-app="myApp">
+	<container>
+	  <my-button ng-click="parent.click('click1')"></my-button>
+	  <my-button ng-click="parent.click('click2')"></my-button>
+	  <my-button ng-click="parent.click('click3')"></my-button>
+	  <my-button ng-click="parent.click('click4')"></my-button>
+	</container>
+</body>
+</html>
